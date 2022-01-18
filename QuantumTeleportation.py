@@ -3,8 +3,6 @@
 
 # In[20]:
 
-
-
 import numpy as np
 # Importing standard Qiskit libraries
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
@@ -152,16 +150,3 @@ sim= Aer.get_backend('aer_simulator')
 qc.save_statevector()
 out_vector=sim.run(qc).result().get_statevector()
 plot_bloch_multivector(out_vector)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
