@@ -117,14 +117,4 @@ out_vector = sim.run(qc).result().get_statevector()
 plot_bloch_multivector(out_vector)
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
