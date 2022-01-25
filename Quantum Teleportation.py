@@ -16,7 +16,6 @@ from qiskit_textbook.tools import random_state
 from qiskit.extensions import Initialize
 
 from qiskit.quantum_info import random_statevector
-# Loading your IBM Quantum account(s)
 provider = IBMQ.load_account()
 
 
@@ -120,16 +119,3 @@ qc.draw()
 backend = Aer.get_backend('statevector_simulator')
 out_vector = execute(qc, backend).result().get_statevector()
 plot_bloch_multivector(out_vector)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
